@@ -1,12 +1,13 @@
 # Maintainer: ibrokemypie <ibrokemypie@bastardi.net>
 pkgname=nxengine-evo-git
-pkgver=2.6.5.1
+_pkgname=nxengine-evo
+pkgver=2.6.5.1.r0
 _ver=2.6.5-1
 _langver=1.14
-pkgrel=3
+pkgrel=1
 pkgdesc="A somewhat upgraded/refactored version of nxengine"
-arch=('i686' 'x86_64')
-url="https://github.com/isage/nxengine-evo"
+arch=('x86_64' 'aarch64')
+url="https://github.com/nxengine/nxengine-evo"
 license=('GPL3')
 depends=(sdl2_mixer sdl2_image sdl2_ttf)
 makedepends=(cmake libpng libjpeg)
